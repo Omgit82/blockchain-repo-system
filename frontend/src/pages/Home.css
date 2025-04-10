@@ -1,0 +1,116 @@
+.home-container {
+    font-family: 'Inter', sans-serif;
+    padding: 2rem;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    min-height: 100vh;
+    color: #e4e4f0;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: rgba(27, 20, 58, 0.85);
+    border: 1.5px solid #4b4bf4;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(75, 75, 244, 0.2);
+    margin-bottom: 4rem;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #a9c9ff;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #c0bcdc;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cta-button {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    padding: 0.9rem 2rem;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #5e60ce, #833ab4);
+  }
+  
+  /* How It Works Section */
+  .how-it-works {
+    text-align: center;
+  }
+  
+  .how-it-works h2 {
+    font-size: 2rem;
+    color: #dcd6f7;
+    margin-bottom: 2rem;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .step {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #4b4bf4;
+    border-radius: 16px;
+    padding: 2rem;
+    width: 280px;
+    box-shadow: 0 0 15px rgba(120, 140, 255, 0.15);
+    transition: transform 0.3s ease, border 0.3s ease;
+  }
+  
+  .step:hover {
+    transform: translateY(-5px);
+    border-color: #00d4ff;
+  }
+  
+  .step h3 {
+    font-size: 1.2rem;
+    color: #c4b5fd;
+    margin-bottom: 0.6rem;
+  }
+  
+  .step p {
+    font-size: 0.95rem;
+    color: #b9b5cf;
+    line-height: 1.4;
+  }
+  
+  /* Subtle Fade Animation */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  
+  .fade-in.delay-1 { animation-delay: 0.3s; }
+  .fade-in.delay-2 { animation-delay: 0.6s; }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
