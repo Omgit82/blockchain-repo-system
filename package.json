@@ -1,0 +1,24 @@
+{
+    "name": "web-3-based-voting-system",
+    "version": "1.0.0",
+    "description": "A blockchain-based voting system using Web3",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"No test specified\" && exit 0"
+    },
+    "author": "Om Gupta",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Omgit82/blockchain-repo-system.git"
+    },
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/Omgit82/blockchain-repo-system/issues"
+    },
+    "homepage": "https://github.com/Omgit82/blockchain-repo-system#readme",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+        "hardhat": "^2.22.19"
+    }
+}
